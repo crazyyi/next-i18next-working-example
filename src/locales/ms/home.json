@@ -1,0 +1,6 @@
+{
+  "title": "Create Next App",
+  "txt": "This is a Test",
+  "listItem": "Purchased {{item}}",
+  "itemCount_other": "{{ count }} units"
+}

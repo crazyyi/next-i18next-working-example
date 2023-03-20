@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lang:extract": "gulp i18next",
+    "lang:watch": "gulp watchTranslations",
+    "lang:publish": "gulp publish"
   },
   "dependencies": {
     "@next/font": "13.2.4",
@@ -15,9 +18,19 @@
     "@types/react-dom": "18.0.11",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "gulp": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "i18next": "^22.4.12",
+    "i18next-localstorage-backend": "^4.1.0",
+    "i18next-parser": "^7.7.0",
+    "next": "^13.2.4",
+    "next-i18next": "^13.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^12.2.0",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "i18next-fs-backend": "^2.1.1"
   }
 }

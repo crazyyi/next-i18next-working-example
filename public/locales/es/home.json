@@ -1,0 +1,5 @@
+{
+  "title": "Create Next App",
+  "txt": "This is a Test",
+  "listItem": "Hello {{item}}"
+}
