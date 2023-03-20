@@ -47,7 +47,7 @@ export default function Home(props: any) {
       </div>
       <div>
         {list.map((v: any, i: number) => {
-          return <li key={i} style={{width: "280px", display: "flex", margin: "10px"}}>
+          return <li key={i} style={{width: "500px", display: "flex", margin: "10px"}}>
                 <div style={{width: "100%"}}>
                   <span style={{marginRight: "10px"}}>
                       <Trans i18nKey={"home:listItem"}>Purchased {{ item: v.name }}</Trans>
@@ -59,6 +59,12 @@ export default function Home(props: any) {
                     defaultValue_other: "{{ count }} units"
                   })}
                   </span>
+                  <p style={{marginLeft: "10px", color: "silver"}}>
+                  {t("home:itemFailedCount", " You can see this is not working using defaultValue_plural: {{ count }} unit", {
+                    count: v.count,
+                    defaultValue_plural: " You can see this is not working using defaultValue_plural:{{ count }} units"
+                  })}
+                  </p>
                 </div>
               </li>
         })}

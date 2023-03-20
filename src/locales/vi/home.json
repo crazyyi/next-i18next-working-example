@@ -2,5 +2,6 @@
   "title": "Create Next App",
   "txt": "This is a Test",
   "listItem": "Purchased {{item}}",
-  "itemCount_other": "{{ count }} units"
+  "itemCount_other": "{{ count }} units",
+  "itemFailedCount_other": " You can see this is not working using defaultValue_plural: {{ count }} unit"
 }

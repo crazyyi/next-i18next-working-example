@@ -4,5 +4,8 @@
   "listItem": "Purchased {{item}}",
   "itemCount_one": "{{ count }} unit",
   "itemCount_many": "{{ count }} unit",
-  "itemCount_other": "{{ count }} units"
+  "itemCount_other": "{{ count }} units",
+  "itemFailedCount_one": " You can see this is not working using defaultValue_plural: {{ count }} unit",
+  "itemFailedCount_many": " You can see this is not working using defaultValue_plural: {{ count }} unit",
+  "itemFailedCount_other": " You can see this is not working using defaultValue_plural: {{ count }} unit"
 }
